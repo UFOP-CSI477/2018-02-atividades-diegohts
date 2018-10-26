@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Cálculo IMC</title>
+	<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.css">
+	<script src="jquery-3.3.1.js"></script>
+	<script src="funcoes.js"></script>
+</head>
+
+<body>
+ 	
+	<div class="container">
+      
+    	<div class="page-header">
+       		<h1>Cálculo IMC</h1>
+     	</div>
+     		<div class="row">
+        
+           		<div class="col-md-8">
+
+					<form name="dados">
+						<div class="form-group">
+							<label for="nome">Nome </label>
+              				<input type="text" class="form-control" value="" id="nome" placeholder="Digite seu nome">		
+						</div>	
+
+						<div class="form-group">
+							<label for="nome">Peso</label>
+              				<input type="text" class="form-control" id="peso" required="" placeholder="Digite seu peso: (em Kg)"> 		
+						</div>	
+		
+						<div class="form-group">
+							<label for="nome">Altura</label>
+              				<input type="text" class="form-control" id="altura" required="" placeholder="Digite sua altura: Ex: 1.72 (em metros)"> 	
+						</div>	
+						
+						<div class="form-group">
+						  <label for="resultado">Resultado</label>
+						  <input type="text" name="resultado" value="" id="resultado" class="form-control">
+						</div>
+
+						<button type="button" id="botao" class="btn btn-default" name="calculo">Calcular</button>
+
+			  		</form>
+
+				</div>
+
+			</div>
+	</div>
+</body>
+
+</html>

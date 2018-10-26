@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Carrinho</title>
+	<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.css">
+	<script src="jquery-3.3.1.js"></script>
+	<script src="carros.js"></script>
+</head>
+
+<body>
+ 	
+	<div class="container">
+	      
+	      <div class="page-header">
+	        <h1>Corrida de Carrinhos</h1>
+	      </div>
+	   	
+			
+			<div class="form-group">
+
+			    <label for="competidores">Número de competidores:</label>
+			     <select name="competidores" id="competidores" class="form-control" onchange="valorselect();">
+
+			       	<option value="0">Selecione:</option>
+			        <option value="1">1</option>
+			        <option value="2">2</option>
+			        <option value="3">3</option>
+			        <option value="4">4</option>
+			        <option value="5">5</option>
+			        <option value="6">6</option>
+
+			    </select>
+
+			</div>
+
+
+	   	<form>
+	      <table id="tabela" class="table table-responsive-lg table-striped table-bordered table-hover table-condensed">
+	        
+	        <thead>
+	          <tr class="success">
+	           	<th>Largada</th>
+	           	<th>Competidor(a)</th>
+	           	<th>Tempo(s)</th>
+	           	<th>Vencedor(a)</th>
+	          </tr>
+	        </thead>
+	          
+	        <tbody>
+	          
+	   
+	        </tbody>  
+
+	      </table>
+			
+		  <div class="text-center" class="mt-5">
+	      		<button type="button" class=" btn btn-success btn-lg" onclick="processa();">Processar</button>
+	      		<!-- <button type="button" class=" btn btn-primary btn-lg" onclick="limpar();">Limpar</button> -->
+	      </div>
+
+	    </form>  
+
+	    </div>
+</body>
+
+</html>
