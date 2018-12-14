@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Formulário de Cadastro</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a href="index.html" class="navbar-brand">Menu</a>
+
+        <button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#menuPrincipal">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Página inicial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="formulario.html">Formulário</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tabela.html">Relatório</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="exit.html">Sair</a>
+              </li>
+            </ul>
+          </div>
+          </nav>
+
+          <div class="page-header">
+              <h1>Formulário de Cadastro</h1>
+          </div>
+            <div class="row">
+            
+                  <div class="col-md-8">
+
+                  <form name="dados" method="post" action="validar.html">
+                    
+                    <div class="form-group">  
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" class="form-control" placeholder="Digite seu nome" autocomplete="none">
+                    </div>
+                    
+                    <div class="form-group">
+                    <label for="telefone">Telefone: </label>
+                    <input type="text" name="telefone" class="form-control" maxlength="16" placeholder="Utilize o formato (***) *****-****" autocomplete="none">
+                    </div>
+                    
+                    <label for="genero">Gênero: </label>
+                    <br>
+                    
+                    <div class="form-check">
+                    <input type="radio" id="feminino" class="form-check-input" name="genero" value="F">
+                    <label for="feminino" class="form-check-label">Feminino</label>
+                    </div>
+
+                    <div class="form-check">
+                    <input type="radio" id="masculino" class="form-check-input" name="genero" value="M">
+                    <label for="masculino" class="form-check-label">Masculino</label>
+                    </div>
+                  
+                    <div class="form-group">
+                    <label for="endereco">Endereço: </label>
+                    <input type="text" class="form-control" name="endereco" autocomplete="none">
+                    </div>
+
+                    <div class="form-group">
+                    <label for="cidade">Cidade: </label>
+                    <select name="cidade" class="form-control">
+                      <option value="1">Alvinópolis</option>
+                      <option value="2" selected>Belo Horizonte</option>
+                      <option value="3">Itabira</option>
+                      <option value="4">Itaúna</option>
+                      <option value="5">João Monlevade</option>
+                      <option value="6">Mariana</option>
+                      <option value="7">Montes Claros</option>
+                      <option value="8">Ouro Preto</option>
+                      <option value="9">Rio Piracicaba</option>
+                    </select>
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="form-group">
+                    <label for="usuario">Usuário: </label>
+                    <input type="text" name="usuario" class="form-control" placeholder="Forneça seu email" autocomplete="none">
+                    </div>
+                     
+                    <div class="form-group"> 
+                    <label for="senha">Senha: </label>
+                    <input type="password" name="senha" class="form-control" placeholder="Forneça sua senha" autocomplete="none">
+                    </div>
+
+                    <input type="submit" class="btn btn-primary" value="Cadastrar">
+                    <input type="reset" class="btn btn-warning" value="Limpar">
+
+                  </form>
+              </div>
+            </div>
+          </div>
+
+  </body>
+</html>
