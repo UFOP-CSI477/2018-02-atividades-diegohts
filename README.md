@@ -14,7 +14,7 @@ Na implementação foi utilizado as tecnologias/ferramentas: Bootstrap, CSS, HTM
 Este projeto terá as seguintes funcionalidades: o cadastro de usuários; o cadastro de produtos; remover produtos; editar produtos; navegar entre os produtos; supostamente finalizar a compra e gerar boleto pdf.
 
 ### 3. Restrições
-     - Só quem é cadastrado no sistema pode realizar as comprar (seja ela o administrador ou cliente).
+     - Só quem é cadastrado no sistema pode realizar as compras (seja ela o administrador ou cliente).
      - O pagamento só é aceito por boleto.
      - Esse projeto não tem a opção de adicionar/remover produtos no carrinho, realizando uma compra por vez.     
      - A página contato para ser enviado uma mensagem ao administrador não é realizada.   
