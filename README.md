@@ -3,11 +3,9 @@
 ### **Prof. Fernando Bernardes de Oliveira, Ph.D.**
 #### Departamento de Computação e Sistemas (DECSI)
 
-Here are available all the activities and codes made on CSI477 - Sistemas Web I course at [Universidade Federal de Ouro Preto (UFOP)](http://www.ufop.br). Semester 2018/02.
+São todas as atividades realizadas referente ao semestre 2018/2 da disciplina CSI477 - Sistemas Web I.   
 
-License: [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
-Best regards,  
+Atenciosamente,  
 Diego Henrique T Silva
 
 [Contact and info.](mailto:diegohrp20@gmail.com)
