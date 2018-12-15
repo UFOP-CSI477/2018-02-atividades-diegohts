@@ -7,7 +7,7 @@
 	      <!-- Main component for a primary marketing message or call to action -->
 	      <div class="jumbotron">
 	        <h1>Bem vindo ao Petshop</h1>
-	        <p>Cuidado, carinho e atenção para seu animal de estimacão.</p>
+	        <p>Cuidado, carinho e atenção para seu animal de estimação.</p>
 	      </div>
 
 	      <div class="clearfix"></div>

@@ -11,7 +11,7 @@
         $resultado_produtos = mysqli_fetch_array($result_produtos);
         
         $nomeproduto = $resultado_produtos['nome'];
-        $descricaoproduto = $resultado_produtos['preco'];
+        $precoproduto = $resultado_produtos['preco'];
         $imagemproduto = $resultado_produtos['imagem'];
   } else { //Cadastrar
     $id = '';
